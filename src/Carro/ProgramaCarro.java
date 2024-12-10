@@ -18,7 +18,7 @@ public class ProgramaCarro {
             System.out.println("5 - Sair");
             System.out.print("Digite a opção desejada: ");
             opcao = scanner.nextInt();
-            scanner.nextLine();  // Limpar o buffer
+            scanner.nextLine();  
 
             switch (opcao) {
                 case 1:
